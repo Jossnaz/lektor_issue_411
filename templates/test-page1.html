@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block title %}hi world{% endblock %}
+{% block body %}
+{% from "macros/render_percentage_items.html" import render_percentage_items %}
+before render
+{{ render_percentage_items ([['aaa', 'aaaa'],['bbbb','bbb']])}}
+after render
+{% endblock %}
