@@ -9,7 +9,7 @@ start lektor server
 
 `$ lektor server`
 
-go to test-page1
+go to test-page1 on http://localhost:5000
 
 now open the file `templates/macros/render_percentage_item.html`
 
